@@ -1,0 +1,87 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* En-tête */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav li {
+    float: left;
+  }
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    background-color: #333;
+  }
+  
+  /* Formulaire de contact */
+  main {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  h1 {
+    text-align: center;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  textarea {
+    height: 150px;
+  }
+  input[type="submit"] {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #333;
+  }
+  
+  /* Pied de page */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  

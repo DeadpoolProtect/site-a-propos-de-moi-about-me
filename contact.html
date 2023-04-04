@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contactez-moi</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="competence.html">Compétences</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contactez-moi</h1>
+      <form action="envoyer.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="discord">Discord :</label>
+        <input type="text" id="discord" name="discord" value="!Deadpool#0430"><br><br>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <input type="submit" value="Envoyer">
+      </form>
+    </main>
+    <footer>
+      <p>Contactez-moi : <a href="mailto:contact@alexishost.fr">contact@alexishost.fr</a></p>
+      <p>Vous pouvez également me contacter sur Discord : !Deadpool#0430</p>
+      <p>Copyright © 2023 - [insérez votre nom ici]</p>
+    </footer>
+  </body>
+</html>
